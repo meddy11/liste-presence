@@ -4,7 +4,7 @@ main {
     margin: auto;
     padding: auto 10px;
     background-color: white;
-    box-shadow: 0px 0px 20px;
+    box-shadow: 0px 0px 15px;
     padding-bottom: 30vh;
 
 }
@@ -101,4 +101,9 @@ main p {
     height: 2vh;
     width: 5vw;
     background-color: red;
+}
+.barre{
+    background-color: red;
+    height: 10px;
+    width: 45px;
 }
