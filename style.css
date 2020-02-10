@@ -1,0 +1,102 @@
+main {
+    width: 60vw;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+    background-color: ivory;
+    box-shadow: 2px 2px 2px;
+    padding-bottom: 30vh;
+    /* padding-top: 10vh; */
+}
+
+.header {
+    height: 10vh;
+    background-color: red;
+    margin-right: 5px;
+}
+
+
+/* style de feuille pour le main */
+
+body {
+    margin: 60px auto;
+    background-color: whitesmoke;
+}
+
+
+/* touche de couleur pour le body */
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 5vh;
+    margin: 10px auto;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: red;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* information de tete de la feuille  */
+
+.contenaire {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenaire .gauche {
+    color: red;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1em;
+}
+
+.contenaire .droite {
+    margin-left: 30vw;
+    color: red;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1em;
+}
+
+.content .bas {
+    margin-left: 26vw;
+    color: red;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1em;
+}
+
+main p {
+    text-align: center;
+    color: black;
+    opacity: 70%;
+    font-family: 'Cinzel', serif;
+}
+
+
+/* decoration */
+
+.color {
+    height: 2vh;
+    width: 5vw;
+    background-color: red;
+}
