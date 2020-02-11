@@ -1,5 +1,5 @@
 main {
-    width: 58vw;
+    width: 63vw;
     border: 1px solid black;
     margin: auto;
     background-color: white;
@@ -10,7 +10,7 @@ main {
 
 .header {
     height: 2vh;
-    width: 58vw;
+    width: 63vw;
     background-color: red;
     margin-right: 5px;
 }
@@ -19,7 +19,7 @@ main {
 /* style de feuille pour le main */
 
 body {
-    margin: 50px auto;
+    margin: 50px;
     background-color: white;
 }
 
@@ -28,10 +28,11 @@ body {
 
 
 table {
+    width: 58vw;
     border: 2px solid black;
     border-collapse: collapse;
     height: 4vh;
-    margin: 30px auto;
+    margin: 3vw;
 }
 
 table,
@@ -61,12 +62,14 @@ thead {
 
 .contenaire {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 3vw;
 }
 
 .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 3vw;
 }
 
 .contenaire .gauche {
@@ -74,17 +77,18 @@ thead {
     color: red;
     font-family: 'Cinzel', serif;
     font-size: 1.1em;
+    vertical-align: initial;
 }
 
 .contenaire .droite {
-   
+    margin-right: 19vw;
     color: red;
     font-family: 'Cinzel', serif;
     font-size: 1.1em;
 }
 
 .content .bas {
-   
+    margin-right: 19vw;
     color: red;
     font-family: 'Cinzel', serif;
     font-size: 1.1em;
