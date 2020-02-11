@@ -81,14 +81,14 @@ thead {
 }
 
 .contenaire .droite {
-    margin-right: 19vw;
+    margin-right: 17vw;
     color: red;
     font-family: 'Cinzel', serif;
     font-size: 1.1em;
 }
 
 .content .bas {
-    margin-right: 19vw;
+    margin-right: 18vw;
     color: red;
     font-family: 'Cinzel', serif;
     font-size: 1.1em;
@@ -122,4 +122,7 @@ main p {
 h2{
     display: flex;
 
+}
+th{
+    text-align: center;
 }
